@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Card.css';
+import './styles/Card.css';
 
 class Card extends Component {
 	render() {
-		const { name, email, username, id } = this.props;
+		const { name, email, id } = this.props;
 		return (
 			<div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
 				<img alt='robots' src={`https://robohash.org/${id}?200x200`} />

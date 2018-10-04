@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Scroll.css';
+import './styles/Scroll.css';
 
 class Scroll extends Component {
 	render() {

@@ -1,6 +1,6 @@
 .scroll {
 	overflow-y: scroll;
-	height: 900px;
+	height: 500px;
 }
 
 .scroll::-webkit-scrollbar {

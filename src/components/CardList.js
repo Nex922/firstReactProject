@@ -11,10 +11,9 @@ class CardList extends Component {
 				return (
 					<Card
 						key = {i}
-						id={robots[i].id}
-						email={robots[i].email}
-						name={robots[i].name}
-						username={robots[i].username}
+						id = {robots[i].id}
+						email = {robots[i].email}
+						name = {robots[i].name}
 				 	/>
 			 	)
 			})
